@@ -1,3 +1,4 @@
+/* Styles de base pour le corps de la page HTML */
 html, body {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ html, body {
     overflow: hidden;
 }
 
+/* Styles pour la bannière en haut de la page (div.banner dans index.html) */
 .banner {
     width: 45%;
     background: rgb(8, 8, 8, 0.7); 
@@ -26,6 +28,7 @@ html, body {
     margin: 0;
 }
 
+/* Styles pour le bouton "À propos de moi" dans la bannière (button.about-me-btn) */
 .about-me-btn {
     margin-top: 15px;
     padding: 15px 30px;
@@ -43,10 +46,11 @@ html, body {
     transform: scale(1.05);
 }
 
+/* Styles pour la bulle "À propos de moi" (div.about-me) */
 .about-me {
     display: none;
     position: absolute;
-    bottom: 600px;
+    bottom: 400px;
     left: 25%;
     transform: translateX(-50%);
     width: 300px;
@@ -87,6 +91,7 @@ html, body {
     color: rgb(137, 9, 241); /* Couleur spécifique pour le titre */
 }
 
+/* Styles pour le conteneur des boutons de projets (div.project-buttons) */
 .project-buttons {
     position: absolute;
     top: 150px;
@@ -115,6 +120,7 @@ html, body {
     transform: scale(1.1);
 }
 
+/* Styles pour le conteneur des projets (div.projects) */
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -187,6 +193,7 @@ html, body {
     opacity: 0.3;
 }
 
+/* Styles pour la description du projet (non utilisé dans index.html) */
 .project-description {
     padding: 10px;
     font-size: 14px;
@@ -204,6 +211,7 @@ html, body {
     background-color: #333;
 }
 
+/* Styles pour le pied de page (div.footer) */
 .footer {
     position: absolute;
     bottom: 0;
